@@ -10,9 +10,9 @@ import pandas as pd
 st.title("IPL Win Predictor")
 
 # Importing data an model from pickel
-teams = pkl.load(open('team.pkl','rb'))
-cities = pkl.load(open('city.pkl','rb'))
-model = pkl.load(open('model.pkl','rb'))
+teams = pkl.load(open('ipl_predictor/team.pkl','rb'))
+cities = pkl.load(open('ipl_predictor/city.pkl','rb'))
+model = pkl.load(open('ipl_predictor/model.pkl','rb'))
 
 # First Row and columns 
 
